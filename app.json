@@ -1,12 +1,12 @@
 {
-  "name": "Friday-Userbot",
-  "description": "A Developed version of @StarkXD's Friday Userbot By @InukaASiTH",
-  "logo": "https://telegra.ph/file/b1922e21e94ba5a7a19d0.jpg",
+  "name": "Virtual-Userbot",
+  "description": "A Remix of Userbots on Github By @InukaASiTH",
+  "logo": "https://telegra.ph/file/4e1364fb18f899ad47dec.png",
   "keywords": [
     "telegram",
-    "fridaybot",
+    "virtualuserbot",
     "plugin",
-    "telegram-fridaybot",
+    "telegram-virtualuserbot",
     "productivity"
   ],
   "repository": "https://github.com/inukaasith/virtualuserbot",
@@ -20,13 +20,17 @@
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
-      "value": "./fridaybot/DOWNLOADS/",
+      "value": "./virtualuserbot/DOWNLOADS/",
       "required": false
     },
     "ALIVE_NAME": {
       "description": "Enter Username Here ",
       "value": ""
     },
+    "lang": {
+      "description": "Enter the Userbot's language ( si , en ) <= Simple letters are copulsory.. only support si and en ",
+      "value": "en"
+    },    
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
@@ -66,6 +70,16 @@
       "value": "",
       "required": false
     },
+    "pro": {
+      "description": "Enable PRO Access or not.. True to Enable (Recommended not to enable)",
+      "value": "",
+      "required": false
+    },
+    "PM_DATA": {
+      "description": "Enable Private Spam Protection or not.. DISABLE to Disale (Defaultly Enabled)",
+      "value": "",
+      "required": false
+    },
     "LYDIA_API_KEY": {
       "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
       "value": "",
@@ -84,7 +98,7 @@
       "value": ""
     },
     "TG_BOT_USER_NAME_BF_HER": {
-      "description": "You Telegram Bot API Key Here. Needed For Help Module And Cbutton.",
+      "description": "You Telegram Bot Username Here. Needed For Help Module And Cbutton.",
       "value": ""
     },
     "DOWNLOAD_PFP_URL_CLOCK": {
@@ -94,12 +108,12 @@
     },
      "ALIVE_IMAGE": {
       "description": "Enter Image URL for bot pic ",
-      "value": "",
+      "value": "https://telegra.ph/file/4e1364fb18f899ad47dec.png",
       "required": false
     },
      "PMPERMIT_PIC": {
       "description": "Enter Image URL for bot's pmsecurity pic ",
-      "value": "",
+      "value": "https://telegra.ph/file/4e1364fb18f899ad47dec.png",
       "required": false
     },    
     

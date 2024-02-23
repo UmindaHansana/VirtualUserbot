@@ -1,1 +1,1 @@
-fridaybot: python -m fridaybot
+worker: python3 virtualbotmain.py
